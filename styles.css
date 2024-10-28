@@ -4,7 +4,7 @@ body {
     font-family: Roboto;
 }
 
-.hero {
+header {
     background-color: #1F2937;
 }
 
@@ -28,7 +28,7 @@ body {
     height: 150px;
 }
 
-ul {
+header nav {
     display: flex;
     gap: 15px;
 }
@@ -37,11 +37,14 @@ a {
     text-decoration: none;
 }
 
+.info-section {
+    text-align: center;
+}
 
 
 .info-grid {
     display: flex;
-   
+   justify-content: center;
 }
 
 .box {
@@ -49,4 +52,8 @@ a {
     height: 100px;
     background-color: white;
     border: 5px solid blue;
+}
+
+.subtext {
+    width: 100px;
 }
