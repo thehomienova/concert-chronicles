@@ -117,9 +117,6 @@ header button {
     width: 100px;
 }
 
-
-
- 
 .quote-section {
     display: flex;
     flex-direction: column;
@@ -168,9 +165,9 @@ header button {
 
 
 footer {
-    background-color: #1F2937;
+    background-color: #E6E6FA;
     text-align: center;
-    color: white;
+    color: black;
     padding: 10px;
     margin: 0;
     flex-shrink: 0;
